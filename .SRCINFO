@@ -1,0 +1,17 @@
+pkgbase = sdotool
+	pkgdesc = Command-line SurfaceFlinger automation tool
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/sdotool
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = libcrash-bash
+	depends = tsu
+	optdepends = xdotool: same tool for X11
+	source = sdotool-999e7436a24ad8bdf90aa5ba7a05460b2700d6d7.zip::https://github.com/themartiancompany/sdotool/archive/999e7436a24ad8bdf90aa5ba7a05460b2700d6d7.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = af811a706a294a9e28a4198d656080ed7b619cca5c2944a7fc6158ce5fbaa089
+
+pkgname = sdotool
