@@ -1,6 +1,6 @@
 pkgbase = sdotool
 	pkgdesc = Command-line SurfaceFlinger automation tool
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/sdotool
 	arch = any
@@ -11,8 +11,8 @@ pkgbase = sdotool
 	depends = android-input-utils
 	depends = tsu
 	optdepends = xdotool: same tool for X11
-	source = sdotool-aae26858687e0a8a011f1225f36f103911dc070a.zip::https://github.com/themartiancompany/sdotool/archive/aae26858687e0a8a011f1225f36f103911dc070a.zip
+	source = sdotool-1190f131fe881911299aa1cb05b80c51cc527da9.zip::https://github.com/themartiancompany/sdotool/archive/1190f131fe881911299aa1cb05b80c51cc527da9.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = a6f685b171ed772650de31e5fa1a655b3accc90679ab725c2e5ac19e33cf4f10
+	sha256sums = 1af27c8b9aeaa91fe0c92d448e1e6512d597dae3f53a07433153ba6138ac9655
 
 pkgname = sdotool

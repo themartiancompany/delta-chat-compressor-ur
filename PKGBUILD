@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=sdotool
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
-_commit="aae26858687e0a8a011f1225f36f103911dc070a"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
+_commit="1190f131fe881911299aa1cb05b80c51cc527da9"
 pkgrel=1
 _pkgdesc=(
   "Command-line SurfaceFlinger automation tool"
@@ -75,7 +75,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="a6f685b171ed772650de31e5fa1a655b3accc90679ab725c2e5ac19e33cf4f10"
+    _sum="1af27c8b9aeaa91fe0c92d448e1e6512d597dae3f53a07433153ba6138ac9655"
   fi && \
     source+=(
       "${_tar}"
