@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=sdotool
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
-_commit="999e7436a24ad8bdf90aa5ba7a05460b2700d6d7"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+_commit="aae26858687e0a8a011f1225f36f103911dc070a"
 pkgrel=1
 _pkgdesc=(
   "Command-line SurfaceFlinger automation tool"
@@ -36,6 +36,7 @@ _os="$( \
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
+    'android-input-utils'
     'tsu'
   )
 optdepends=(
@@ -74,7 +75,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="af811a706a294a9e28a4198d656080ed7b619cca5c2944a7fc6158ce5fbaa089"
+    _sum="a6f685b171ed772650de31e5fa1a655b3accc90679ab725c2e5ac19e33cf4f10"
   fi && \
     source+=(
       "${_tar}"
