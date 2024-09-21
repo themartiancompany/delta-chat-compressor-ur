@@ -1,18 +1,19 @@
-pkgbase = sdotool
-	pkgdesc = Command-line SurfaceFlinger automation tool
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
+pkgbase = delta-chat-compressor
+	pkgdesc = Compresses Delta Chat cached video files.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.1
 	pkgrel = 1
-	url = https://github.com/themartiancompany/sdotool
+	url = https://github.com/themartiancompany/delta-chat-compressor
 	arch = any
 	license = AGPL3
 	checkdepends = shellcheck
 	makedepends = make
 	depends = libcrash-bash
+	depends = media-tools
 	depends = android-input-utils
 	depends = tsu
 	optdepends = xdotool: same tool for X11
-	source = sdotool-1190f131fe881911299aa1cb05b80c51cc527da9.zip::https://github.com/themartiancompany/sdotool/archive/1190f131fe881911299aa1cb05b80c51cc527da9.zip
+	source = delta-chat-compressor-1f413f74007a92e32fb0a762748e238ec3780650.zip::https://github.com/themartiancompany/delta-chat-compressor/archive/1f413f74007a92e32fb0a762748e238ec3780650.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = 1af27c8b9aeaa91fe0c92d448e1e6512d597dae3f53a07433153ba6138ac9655
+	sha256sums = ad8f4cd68b4ab1d2f8e89c1d7bf3ea146490edb46af722bf5e93aa6d5e995918
 
-pkgname = sdotool
+pkgname = delta-chat-compressor
