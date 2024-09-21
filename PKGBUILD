@@ -41,7 +41,6 @@ _os="$( \
     'tsu'
   )
 optdepends=(
-  'xdotool: same tool for X11'
 )
 [[ "${_os}" == 'Android' ]] && \
   optdepends+=(
