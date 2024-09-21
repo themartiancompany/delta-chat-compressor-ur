@@ -7,7 +7,7 @@ _offline="false"
 _git="false"
 pkgname=delta-chat-compressor
 pkgver=0.0.0.0.0.0.0.0.0.0.1
-_commit="1f413f74007a92e32fb0a762748e238ec3780650"
+_commit="7e5ead83af1aa86ec6376722ceefb82cb56e3417"
 pkgrel=1
 _pkgdesc=(
   "Compresses Delta Chat cached video files."
@@ -76,7 +76,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="ad8f4cd68b4ab1d2f8e89c1d7bf3ea146490edb46af722bf5e93aa6d5e995918"
+    _sum="7d2821de311d7d4dd51c079255538c86130d6d53d0e6a5490aa2e4c48a609f0c"
   fi && \
     source+=(
       "${_tar}"

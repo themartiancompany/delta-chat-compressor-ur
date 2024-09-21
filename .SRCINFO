@@ -12,8 +12,8 @@ pkgbase = delta-chat-compressor
 	depends = android-input-utils
 	depends = tsu
 	optdepends = xdotool: same tool for X11
-	source = delta-chat-compressor-1f413f74007a92e32fb0a762748e238ec3780650.zip::https://github.com/themartiancompany/delta-chat-compressor/archive/1f413f74007a92e32fb0a762748e238ec3780650.zip
+	source = delta-chat-compressor-7e5ead83af1aa86ec6376722ceefb82cb56e3417.zip::https://github.com/themartiancompany/delta-chat-compressor/archive/7e5ead83af1aa86ec6376722ceefb82cb56e3417.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = ad8f4cd68b4ab1d2f8e89c1d7bf3ea146490edb46af722bf5e93aa6d5e995918
+	sha256sums = 7d2821de311d7d4dd51c079255538c86130d6d53d0e6a5490aa2e4c48a609f0c
 
 pkgname = delta-chat-compressor
